@@ -1,0 +1,43 @@
+// secret scss comments hehe
+$myColor: #ff33cc;
+$width: 600px;
+
+@mixin myFunctionForButton{
+	border-color: yellow;
+	width: 300px;
+	height: 300px;
+	background-color: aqua;
+	margin: 0 auto;
+}
+
+body {
+	margin: 30px;
+}
+
+#selectDevice{
+	font-size: larger
+}
+
+#latchButton{
+	font-size: larger;
+	width: 150px;
+	height: 30px;
+}
+
+#connectButton {
+		font-size: larger;
+	width: 150px;
+	height: 30px;
+}
+#connectButtonone {
+		font-size: larger;
+	width: 150px;
+	height: 30px;
+}
+
+
+div{
+	@include myFunctionForButton;
+	background-color: $myColor;
+	width: $width * 2;
+}

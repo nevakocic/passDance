@@ -1,0 +1,24 @@
+body {
+	margin: 30px;
+}
+
+#selectDevice{
+	font-size: larger
+}
+
+#latchButton{
+	font-size: larger;
+	width: 150px;
+	height: 30px;
+}
+
+#connectButton {
+		font-size: larger;
+	width: 150px;
+	height: 30px;
+}
+#connectButtonone {
+		font-size: larger;
+	width: 150px;
+	height: 30px;
+}
